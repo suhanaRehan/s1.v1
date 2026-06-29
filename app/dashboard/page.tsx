@@ -80,7 +80,10 @@ export default function DashboardPage() {
                   <Settings size={20} />
                   <span>Settings</span>
                 </Link>
-                <button className="w-full flex items-center gap-3 text-gray-700 hover:text-blue-600 py-2">
+                <button
+                  onClick={handleLogout}
+                  className="w-full flex items-center gap-3 text-gray-700 hover:text-blue-600 py-2"
+                >
                   <LogOut size={20} />
                   <span>Logout</span>
                 </button>
